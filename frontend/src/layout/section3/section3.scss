@@ -1,0 +1,42 @@
+.section3 {
+  width: 100%;
+  min-height: 800px;
+  .container {
+    text-align: center;
+    min-height: 800px;
+    h3 {
+      font-size: 40px;
+    }
+    .categories {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      .all {
+        border: 1px solid black;
+        height: 40px;
+        width: 100px;
+        background-color: rgb(240, 76, 103);
+      }
+      .women {
+        border: 1px solid black;
+        height: 40px;
+        width: 100px;
+      }
+      .accesories {
+        border: 1px solid black;
+        height: 40px;
+        width: 100px;
+      }
+      .men {
+        border: 1px solid black;
+        height: 40px;
+        width: 100px;
+      }
+    }
+    .cardContainer {
+      gap: 10px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}
